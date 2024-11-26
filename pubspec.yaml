@@ -1,0 +1,21 @@
+name: dog_breeds_app
+description: A Flutter app to display dog breeds using a table and carousel.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  # carousel_slider: ^4.2.1 
+  flutter_lints: ^2.0.0
+  cached_network_image: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
